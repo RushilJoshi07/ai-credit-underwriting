@@ -1,0 +1,87 @@
+# Operating systems and editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Secrets and local environment configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python environments, caches, and build output
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# JavaScript and frontend generated output
+node_modules/
+.vite/
+.next/
+coverage/
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Downloaded and derived datasets; preserve documentation and placeholders
+data/raw/*
+data/interim/*
+data/processed/*
+data/external/*
+!data/raw/README.md
+!data/raw/.gitkeep
+!data/interim/README.md
+!data/interim/.gitkeep
+!data/processed/README.md
+!data/processed/.gitkeep
+!data/external/README.md
+!data/external/.gitkeep
+
+# Local databases and journals
+*.db
+*.db-journal
+*.sqlite
+*.sqlite-journal
+*.sqlite3
+*.sqlite3-journal
+
+# Generated models and experiment artifacts
+artifacts/models/
+artifacts/reports/generated/
+*.joblib
+*.pkl
+*.pickle
+*.onnx
+mlruns/
+mlartifacts/
+
+# Generated retrieval and project-local model runtime artifacts
+artifacts/vector-indexes/
+artifacts/embeddings/
+.local-models/
+.ollama/
+
+# Logs and temporary files
+logs/
+*.log
+tmp/
+temp/
+*.tmp
+*.bak
